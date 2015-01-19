@@ -1,0 +1,15 @@
+16:38:58 **** Incremental Build of configuration Debug for project hello ****
+make all 
+Building file: ../src/main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.cpp"
+Finished building: ../src/main.cpp
+ 
+Building target: hello
+Invoking: GCC C++ Linker
+g++  -o "hello"  ./src/main.o   
+Finished building target: hello
+ 
+16:39:05 **** Incremental Build of configuration Debug for project hello ****
+make all 
+make: Nothing to be done for `all'.
